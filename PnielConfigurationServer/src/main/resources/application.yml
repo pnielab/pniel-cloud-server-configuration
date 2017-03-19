@@ -1,0 +1,11 @@
+server:
+  port: 8888
+  host: localhost
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/pnielab/pniel-cloud-client-repo
+
