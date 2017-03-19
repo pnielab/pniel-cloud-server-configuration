@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/PnielConfigurationServer.iml" filepath="$PROJECT_DIR$/PnielConfigurationServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configuration.iml" filepath="$PROJECT_DIR$/configuration.iml" />
     </modules>
   </component>
 </project>

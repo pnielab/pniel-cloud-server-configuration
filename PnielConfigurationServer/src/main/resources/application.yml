@@ -7,5 +7,9 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/pnielab/pniel-cloud-client-repo
+          uri: ${user_home}/pniel-cloud-client-repo
+                #user_home system variable:
+                #https://github.com/pnielab
+                #or local git but clone it
+                #C:\PNIEL_SPRING_CLOUD
 
