@@ -1,1 +1,3 @@
+server\Consumer.class
 server\Boot.class
+server\config\ConfigMonitorConfiguration.class

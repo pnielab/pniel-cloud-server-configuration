@@ -2,12 +2,14 @@ package server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration;
 import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
  * Created by Pniel abramovich
  */
-@SpringBootApplication
+@SpringBootApplication(exclude = {RabbitAutoConfiguration.class})
+//@EnableAutoConfiguration
 @EnableConfigServer
 public class Boot {
 
