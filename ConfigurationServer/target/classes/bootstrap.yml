@@ -17,6 +17,7 @@ spring:
       server:
         git:
           uri: ${user_home}/pniel-cloud-client-repo
+
                 #user_home system variable:
                 #https://github.com/pnielab
                 #or local git but clone it
